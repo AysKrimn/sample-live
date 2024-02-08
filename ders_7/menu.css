@@ -1,0 +1,208 @@
+/* RESET HTML */
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+ul {
+
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul li {
+
+    padding: 8px;
+}
+
+
+/* RESET HTML BİTER */
+
+body {
+
+    font-family: sans-serif;
+}
+
+nav {
+
+    width: 100%;
+    background-color: black;
+    display: flex;
+    color: white;
+    padding: 1rem;
+
+    text-transform: uppercase;
+    font-weight: bolder;
+
+}
+
+
+nav .logo {
+
+    width: 80px;
+}
+
+
+nav a:hover::before:not(.logo a) {
+
+    content: "> ";
+    color: aqua;
+    position: absolute;
+    left: -13px;
+}
+
+nav a:hover:not(.logo a) {
+
+    position: relative;
+    text-decoration: underline;
+    text-decoration-color: aqua;
+}
+
+nav ul {
+
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+
+nav .logo img {
+
+    border: 1px solid #575757;
+}
+
+
+img {
+
+    width: 100%;
+}
+
+.site-container {
+
+    padding: 3rem;
+    margin: 3rem;
+}
+
+.flex-container {
+
+    display: flex;
+}
+
+.section-1 {
+
+    flex: 1;
+    margin-right: 10px;
+}
+
+
+.section-2 {
+
+    flex: 3;
+}
+
+.navigator {
+
+    background-color: #030c25;
+}
+
+
+
+
+.image-container img {
+
+    border: 1px solid gray;
+}
+
+
+.navigator button {
+
+    padding: 8px;
+    cursor: pointer;
+    margin-left: 10px;
+    background: inherit;
+    color: white;
+    border: 0;
+    font-size: medium;
+}
+
+.navigator button.active {
+
+    font-weight: bolder;
+}
+
+.navigator button:hover {
+
+    font-weight: bolder;
+
+}
+
+.account-detail {
+
+    border: 1px solid #a3a3a3;
+    padding: 8px;
+}
+
+
+.account-detail p {
+
+    margin-bottom: 6px;
+}
+
+
+.post-container {
+
+    margin: 1rem;
+    /* min-height: 114px; */
+    border: 1px solid gray;
+    padding: 1rem;
+}
+
+.post-description {
+
+    margin-top: 1rem;
+}
+
+.post-date {
+
+    margin-top: 1rem;
+}
+
+
+
+.footer {
+
+    width: 100%;
+    background-color: black;
+    /* display: flex; */
+    color: white;
+    padding: 1rem;
+    border-top: 6px solid #1d1e20;
+}
+
+.footer-container {
+
+    display: flex;
+    /* text-align: center; */
+    justify-content: space-around;
+    text-align: center;
+}
+
+
+.footer-text {
+
+    text-align: center;
+    font-weight: bolder;
+    background: #1d1e20;
+    color: white;
+    padding: 1rem;
+}
+}
